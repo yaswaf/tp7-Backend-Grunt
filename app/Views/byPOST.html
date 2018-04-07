@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="offset-2 col-md-5">
+        <div class="form-area">
+                <br style="clear:both">
+                <h3 style="margin-bottom: 25px; text-align: center;">Formulaire Personne</h3>
+                <div class="form-group ">
+                    <input ng-model="personNom" type="text" class="form-control" id="name" name="nom" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <input ng-model="personPrenom" type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom" required>
+                </div>
+                <div class="form-group">
+                    <input ng-model="personMail" type="text" class="form-control" id="email" name="email" placeholder="Email@mail.com" required>
+                </div>
+                <button ui-sref="getMethod" type="submit" id="submit" name="submit" class="btn btn-primary align-content-center" ng-click="send()">Envoyer</button>
+        </div>
+    </div>
+</div>
