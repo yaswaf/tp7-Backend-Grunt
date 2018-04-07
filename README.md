@@ -5,6 +5,15 @@ version 0.16.0.
 
 This is the project (TP7) using backend relying on grunt and using tp4 services !
 
+## Structure
+
+The use of methods Get and Post for the service Person.
+
+| Method | Result |
+| ------------- | ------------- |
+| GET  | Returns a list of people  |
+| POST | Add a person into database  |
+
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
