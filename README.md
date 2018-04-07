@@ -9,7 +9,7 @@ This is the project (TP7) using backend relying on grunt and using tp4 services 
 
 The use of methods Get and Post for the service Person.
 
-| Method | Result |
+| Method | Action |
 | ------------- | ------------- |
 | GET  | Returns a list of people  |
 | POST | Add a person into database  |
